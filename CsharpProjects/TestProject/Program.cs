@@ -1,18 +1,40 @@
-﻿string[] uSers =  {"Administrator" "Manager" "User"}
+﻿
+string[] allowedRoles = { "Administrator", "Manager", "User" };
+string userInput; 
 bool validEntry = false;
-Console.WriteLine("Enter your role name:");
+
+Console.WriteLine("Ingresa tu nombre de rol (Administrator, Manager, o User):");
+
 do
 {
-    uSers = Console.ReadLine();
-    if (uSers != null)
+    userInput = Console.ReadLine(); 
+
+    if (!string.IsNullOrWhiteSpace(userInput)) 
     {
-        if (uSers.Length >= 1)
+        string trimmedInput = userInput.Trim();
+
+        
+        foreach (string role in allowedRoles)
         {
-            validEntry = true;
+            if (trimmedInput.Equals(role, StringComparison.OrdinalIgnoreCase))
+            {
+                validEntry = true; 
+                Console.WriteLine($"¡Bienvenido/a, {role}!"); 
+                break; 
+            }
         }
-        else
+
+        if (!validEntry)
         {
-            Console.WriteLine("Your input is invalid , please try again.");
+            Console.WriteLine("Nombre de rol inválido. Por favor, intenta de nuevo.");
+            Console.WriteLine("Los roles permitidos son: Administrator, Manager, User.");
         }
     }
-} while (validEntry == false);
+    else 
+    {
+        Console.WriteLine("Tu entrada no puede estar vacía o contener solo espacios. Por favor, intenta de nuevo.");
+    }
+
+} while (!validEntry); 
+
+Console.WriteLine("El programa continúa..."); 

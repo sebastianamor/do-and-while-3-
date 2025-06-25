@@ -3,3 +3,13 @@ C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\o
 C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfo.cs
 C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.csproj.CoreCompileInputs.cache
 C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.sourcelink.json
+C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.exe
+C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.deps.json
+C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.runtimeconfig.json
+C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.dll
+C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.pdb
+C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.dll
+C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\obj\Debug\net8.0\refint\TestProject.dll
+C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.pdb
+C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
+C:\Users\seba\Desktop\c de c\do and while proyect 3\CsharpProjects\TestProject\obj\Debug\net8.0\ref\TestProject.dll
